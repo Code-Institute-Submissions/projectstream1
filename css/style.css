@@ -1,0 +1,212 @@
+body {
+    padding-top: 128px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#ourServicesLeft {
+    padding: 50px 50px 0 0;
+    background-color: rgb(229,229,229);
+    height: 550px;
+}
+.navbar-brand {
+    margin-left: 85%;
+}
+
+.descServ {
+    padding: 50px;
+}
+
+#navbar-text {
+    font-size: 20px;
+}
+
+.navbar-default {
+    background-color: rgba(252,252,252,0.6);
+}
+.navbar-nav li a {
+    line-height: 58px;
+}
+
+.navbar-nav button {
+    margin-top: 28px;
+}
+
+.hamburger {
+    float: right;
+}
+
+.navbar-right {
+    padding-right: 70px;
+}
+
+.overlay-on-carousel {
+    position: absolute;
+    left: 0;
+    z-index: 500;
+    background-color: rgba(252,252,252,0.6);
+    height: 900px;
+    padding-top: 350px;
+}
+
+.carousel-mar {
+    padding: 0;
+    height: 900px;
+}
+
+#about {
+    background-color: rgb(141,174,201)
+}
+
+.text-about {
+    padding-top: 100px;
+    color: rgb(255, 255, 255)
+    
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    height: 900px;
+}
+
+.fa-chevron-right {
+    position: relative;
+    top: 30px;
+    left: -20px;
+}
+
+/*#contact {*/
+/*    height: 100%;*/
+/*}*/
+
+/*section {*/
+/*    height: 700px;*/
+/*}*/
+
+form {
+    height: 500px;
+}
+
+#footer-details {
+    background-color: rgb(141,174,201);
+}
+
+#home {
+    height: 100%;
+}
+
+h1 {
+    padding-top: 40px;
+    padding-left: 150px;
+    font-size: 45px;
+}
+
+#dinosaurs {
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+#button {
+    padding-left: 190px;
+}
+
+#gray {
+    height: 1000px;
+    background-color: rgb(229,229,229);
+}
+
+.row-space {
+    padding: 30px 0;
+}
+
+/*.row-eqheight {*/
+/*    display: -webkit-box;*/
+/*    display: -webkit-flex;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.adopt_section{*/
+/*    position: relative;*/
+/*}*/
+
+.adopt_button{
+    margin: 0 auto;
+    background:orange;
+}
+.adopt_section {
+    text-align: center;
+    background-color: rgb(240,240,240);
+}
+#adopt_left {
+    background-color: rgb(210,225,232);
+}
+
+#writehere {
+    display: none;
+}
+
+
+
+/*--------Desktop styiling*/
+
+@media screen and (min-width:768px) {
+    .hamburger {
+        display: none;
+    }
+    
+#home {
+    height: 900px;
+}
+
+#services {
+    height: 550px;
+    }
+
+#about {
+    height: 400px;
+    background-color: rgb(141,174,201)
+}
+
+/*#contact {*/
+/*    height: 1000px;*/
+/*}*/
+
+.map iframe {
+    width: 60%;
+    height: 60%;
+}
+
+.animal_items .animal_item {
+    display: inline-block;
+}
+
+.animal_item {
+    position: relative;
+    overflow: hidden;
+}
+
+.animal_item img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.animal_item:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.adopt_section {
+    text-align: center;
+}
+.adopt_button{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 200px;
+    background:orange;
+}
+
+}
+
