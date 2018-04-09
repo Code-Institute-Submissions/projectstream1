@@ -30,5 +30,5 @@ $(".adopt_button").click(function(){
 })
 
 $(document).ready(function() {
-  $("#adopt_right").css("height", $("#adopt_left").height());
+  $("#adopt_right").css("height", $("#adopt_left").height())
 })
