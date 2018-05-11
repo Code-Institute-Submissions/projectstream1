@@ -11,9 +11,9 @@ hamburger.addEventListener("click", function() {
  
         function adopt() {
             let pets=[
-            '<img src="images/1.jpeg">',
-            '<img src="images/2.jpg">', 
-            '<img src="images/3.jpg">',
+            '<img src="images/dog11.jpeg">',
+            '<img src="images/dog6.jpeg">', 
+            '<img src="images/dog1.jpg">',
             '<img src="images/4.jpg">',
             '<img src="images/5.jpeg">',
             '<img src="images/6.png">',
@@ -27,8 +27,8 @@ hamburger.addEventListener("click", function() {
 
 $(".adopt_button").click(function(){
   $("#writehere").css("display", "block")
-})
+});
 
 $(document).ready(function() {
   $("#adopt_right").css("height", $("#adopt_left").height())
-})
+});
