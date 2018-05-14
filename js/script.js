@@ -11,13 +11,13 @@ hamburger.addEventListener("click", function() {
  
         function adopt() {
             let pets=[
-            '<img src="images/dog11.jpeg">',
-            '<img src="images/dog6.jpeg">', 
-            '<img src="images/dog1.jpg">',
-            '<img src="images/4.jpg">',
-            '<img src="images/5.jpeg">',
-            '<img src="images/6.png">',
-            '<img src="images/7.jpeg">',
+            '<img src="images/dogo1.jpeg">',
+            '<img src="images/dogo2.jpeg">',
+            '<img src="images/dogo3.jpg">',
+            '<img src="images/dogo4.jpeg">',
+            '<img src="images/dogo5.jpeg">',
+            '<img src="images/dogo6.jpeg">',
+            '<img src="images/dogo7.jpeg">',
             '<img src="images/8.jpg">'];
             let indexno=Math.floor((Math.random() * 8));
             document.getElementById("adopt_image").innerHTML = pets[indexno];
@@ -25,10 +25,10 @@ hamburger.addEventListener("click", function() {
     
         
 
-$(".adopt_button").click(function(){
-  $("#writehere").css("display", "block")
+(".adopt_button").click(function(){
+  ("#writehere").css("display", "block");
 });
 
-$(document).ready(function() {
-  $("#adopt_right").css("height", $("#adopt_left").height())
+(document).ready(function() {
+  ("#adopt_right").css("height", $("#adopt_left").height());
 });
